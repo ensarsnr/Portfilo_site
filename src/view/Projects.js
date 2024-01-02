@@ -36,6 +36,7 @@ function Projects() {
       URL: "https://github.com/antonioru/beautiful-react-hooks",
       img: require("../assets/img/chatapp.png"),
       tech: ["README.md"],
+      date: `${t("months.oct")} 23 - 2023`,
     },
     {
       title: "Project Management",
@@ -43,6 +44,7 @@ function Projects() {
       URL: "https://github.com/ensarsnr/project-management",
       img: require("../assets/img/chatapp.png"),
       tech: ["VueJS", "NodeJS", "MongoDB", "Tailwind"],
+      date: `${t("months.nov")} 25 - Not Finished - 2023`,
     },
   ];
 
