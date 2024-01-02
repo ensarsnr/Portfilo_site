@@ -5,7 +5,10 @@ const resources = {
   tr: {
     translation: {
       welcome: "Hoş geldiniz!",
-      about: `Türkçe lorem ipsum olacak burasıda...`,
+      about: `Merhaba! Junior developer olarak kendimi geliştirmeye devam ediyorum.
+              JavaScript teknolojileri ve Flutter ile mobil programlama konusunda uzmanlaşıyorum.
+              Bilgisayarın dışında keşfetmeyi seviyorum ve amatör fotoğrafçılığa ilgi duyuyorum. 
+              Bu web sitesi üzerinden fotoğraflarıma ve üzerinde çalıştığım projelere göz atabilirsiniz.`,
       workingProcess: "Çalışma Süreci",
       workingTitle: "Çalışmalarımın Detayları",
       workingInfo:
@@ -41,12 +44,10 @@ const resources = {
   en: {
     translation: {
       welcome: "Welcome!",
-      about: `Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text
-      ever since the 1500s, when an unknown printer took a galley of type
-      and scrambled it to make a type specimen book. It has survived not
-      only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged.`,
+      about: `Hello! I am actively developing myself as a junior developer. 
+              I want to specialize in mobile programming with JavaScript technologies and Flutter.
+              Apart from computers, I enjoy exploring and have a passion for amateur photography. 
+              You can explore my photos and the projects I've worked on through this website.`,
       workingProcess: "Working Process",
       workingTitle: "Details Of My Work",
       workingInfo:
