@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { CiImageOn } from "react-icons/ci";
 
 function Projects() {
   const { t, i18n } = useTranslation();
@@ -69,13 +70,22 @@ function Projects() {
           <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
             {project.desc}
           </p>
-          <div className="mt-5">
-            <a
-              href={project.URL}
-              className="duration-200 hover:duration-200 hover:bg-gray-500 bg-gray-400 sm:px-4 sm:py-3 px-2 py-2 rounded-xl sm:text-lg text-sm font-bold"
-            >
-              {t("sourceCode")}
-            </a>
+          <div
+            className={`flex  justify-between ${
+              index % 2 === 1 ? "flex-row-reverse" : "items-center"
+            } mt-5`}
+          >
+            <div className="m-auto">
+              <CiImageOn size={30} />
+            </div>
+            <div>
+              <a
+                href={project.URL}
+                className="duration-200 hover:duration-200 hover:bg-gray-500 bg-gray-400 sm:px-4 sm:py-3 px-2 py-2 rounded-xl sm:text-lg text-sm font-bold"
+              >
+                {t("sourceCode")}
+              </a>
+            </div>
           </div>
         </div>
       </div>
