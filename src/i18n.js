@@ -5,7 +5,7 @@ const resources = {
   tr: {
     translation: {
       welcome: "Hoş geldiniz!",
-      about: `Merhaba! Junior developer olarak kendimi geliştirmeye devam ediyorum.
+      about: `Junior developer olarak kendimi geliştirmeye devam ediyorum.
               JavaScript teknolojileri ve Flutter ile mobil programlama konusunda uzmanlaşıyorum.
               Bilgisayarın dışında keşfetmeyi seviyorum ve amatör fotoğrafçılığa ilgi duyuyorum. 
               Bu web sitesi üzerinden fotoğraflarıma ve üzerinde çalıştığım projelere göz atabilirsiniz.`,
@@ -44,7 +44,7 @@ const resources = {
   en: {
     translation: {
       welcome: "Welcome!",
-      about: `Hello! I am actively developing myself as a junior developer. 
+      about: `I am actively developing myself as a junior developer. 
               I want to specialize in mobile programming with JavaScript technologies and Flutter.
               Apart from computers, I enjoy exploring and have a passion for amateur photography. 
               You can explore my photos and the projects I've worked on through this website.`,
