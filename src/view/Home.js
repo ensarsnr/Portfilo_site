@@ -4,6 +4,7 @@ import ComputerAnim from "../components/home/ComputerAnim";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiMiniLanguage } from "react-icons/hi2";
 import Title from "../components/home/Title";
+import TitleWriter from "../components/home/TitleWriter";
 
 function Home() {
   const { t, i18n } = useTranslation();
@@ -25,7 +26,12 @@ function Home() {
             <Title />
           </div>
           <div className="mt-5">
-            <p className="">{t("about")}</p>
+            <h1 className="text-white font-extrabold text-2xl">
+              <TitleWriter />
+            </h1>
+            <p className="text-start text-xl font-medium text-white">
+              {t("about")}
+            </p>
           </div>
           <div className="flex justify-evenly mt-5">
             <button>
