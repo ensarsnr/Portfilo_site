@@ -7,9 +7,13 @@ function TitleWriter() {
       <Typewriter
         options={{
           strings: [
-            "Backend Developer",
-            "Frontend Developer",
-            "Mobile Developer",
+            "Hello!",
+            "Bonjour!",
+            "Hola!",
+            "Hallo!",
+            "Merhaba!",
+            "Ciao!",
+            "你好",
           ],
           autoStart: true,
           loop: true,
