@@ -35,13 +35,13 @@ function Home() {
           </div>
           <div className="flex justify-evenly mt-5">
             <button>
-              <FaGithub size={60} />
+              <FaGithub color="white" size={60} />
             </button>
             <button>
-              <FaLinkedin size={60} />
+              <FaLinkedin size={60} color="white" />
             </button>
             <button onClick={clickChangeLang}>
-              <HiMiniLanguage size={60} />
+              <HiMiniLanguage size={60} color="white" />
               <p className="text-center">{i18n.language}</p>
             </button>
           </div>
