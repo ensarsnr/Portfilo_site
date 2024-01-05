@@ -4,7 +4,9 @@ import TitleWriter from "./TitleWriter";
 function Title() {
   return (
     <div>
-      <h1 className="text-5xl font-bold text-start">Name Surname 👋</h1>
+      <h1 className="text-5xl text-white font-bold text-start">
+        Name Surname 👋
+      </h1>
     </div>
   );
 }
