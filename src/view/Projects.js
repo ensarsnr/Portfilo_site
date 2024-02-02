@@ -76,7 +76,7 @@ function Projects() {
               index % 2 === 1 ? "flex-row-reverse" : "items-center"
             } mt-5`}
           >
-            <div className="m-auto">
+            <div className="m-auto :">
               <CiImageOn size={30} />
             </div>
             <div>
