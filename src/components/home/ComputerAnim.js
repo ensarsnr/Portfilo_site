@@ -6,7 +6,7 @@ function ComputerAnim() {
   return (
     <div className="w-[600px] p-8 2xl:w-[900px]">
       {/* <Lottie animationData={computer} loop={true} /> */}
-      <img src={catDeveloper} className="rounded-md shadow-xl" />
+      <img src={catDeveloper} className="rounded-full border-white border-2 shadow-xl" />
     </div>
   );
 }
