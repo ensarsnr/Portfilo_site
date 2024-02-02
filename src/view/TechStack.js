@@ -5,7 +5,7 @@ import { MdDeveloperMode } from "react-icons/md";
 import { FaDatabase } from "react-icons/fa6";
 function TechStack() {
   return (
-    <div className="grid sm:grid-cols-3 grid-cols-1   sm:p-10 bg-[#0F1035] gap-4 sm:gap-36 p-2 sm:h-screen">
+    <div className="grid sm:grid-cols-3 grid-cols-1 sm:p-10 bg-[#0F1035] gap-4 sm:gap-36 p-2 sm:h-screen">
       <div className="bg-[#365486] m-auto  sm:h-3/4 h-full w-full rounded-lg shadow-lg flex flex-col">
         <div className="sm:h-1/4 h-2/6 w-full flex flex-col mt-5">
           <div className="m-auto bg-pink-500 p-4 rounded-full">
@@ -105,6 +105,9 @@ function TechStack() {
             </span>
             <span className="p-2 text-white text-center font-extrabold  text-xs bg-[#7FC7D9] rounded-full">
               Firebase
+            </span>
+            <span className="p-2 text-white text-center font-extrabold  text-xs bg-[#7FC7D9] rounded-full">
+              R-Native
             </span>
             <span className="p-2 text-white text-center font-extrabold  text-xs bg-[#7FC7D9] rounded-full">
               MongoDB
