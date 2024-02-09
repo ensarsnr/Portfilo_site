@@ -18,7 +18,7 @@ function Home() {
   return (
     <>
       <div className="flex lg:grid lg:grid-cols-3 h-screen bg-[#2D3250]">
-        <div className=" rounded-br-lg lg:col-span-1 lg:block hidden bg-[#7077A1]">
+        <div className="shadow-[inset_0_-2px_4px_rgba(0,0,0,0.6)] lg:col-span-1 lg:block hidden bg-[#7077A1]">
           <ComputerAnim />
         </div>
         <div className="h-screen flex flex-col justify-evenly lg:w-3/4 p-5 sm:col-span-2 col-span-3 m-auto text-[#9EC8B9]">

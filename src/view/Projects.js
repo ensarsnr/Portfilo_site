@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { CiImageOn, CiParking1 } from "react-icons/ci";
 import { IoCodeSlash } from "react-icons/io5";
+import myCv from "../assets/download/CV.pdf";
 
 function Projects() {
   const { t, i18n } = useTranslation();
@@ -60,8 +61,6 @@ function Projects() {
     setImages(e.img);
   };
 
-  
-
   const renderProjectTimeline = () => {
     return projects.map((project, index) => (
       <div
@@ -117,7 +116,9 @@ function Projects() {
               {t("workingInfo")}
             </p>
             <a
-              href="#"
+            target="_blank"
+            href={myCv}
+              download="myCv"
               className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
             >
               {t("cvDownload")}
@@ -146,7 +147,7 @@ function Projects() {
                 {renderProjectTimeline()}
               </div>
               <img
-                className="mx-auto -mt-36 md:-mt-36"
+                className="mx-auto -mt-36 md:-mt-20"
                 src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
               />
             </div>
@@ -155,8 +156,7 @@ function Projects() {
         {showImg && (
           <div
             id="modal"
-            class="overscroll-none fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center"
-          >
+            class="m-auto fixed   top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center"          >
             <a
               class="fixed z-90 top-6 right-8 text-white text-5xl font-bold"
               href="javascript:void(0)"
@@ -168,7 +168,7 @@ function Projects() {
             <img
               src={images}
               id="modal-img"
-              class="max-w-[800px] max-h-[600px] "
+              class="p-5 bg-gray-400 rounded-lg h-3/4 max-w-full"
             />
           </div>
         )}
