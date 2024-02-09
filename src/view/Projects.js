@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { CiImageOn } from "react-icons/ci";
+import { CiImageOn, CiParking1 } from "react-icons/ci";
 import { IoCodeSlash } from "react-icons/io5";
 
 function Projects() {
   const { t, i18n } = useTranslation();
+  const [showImg, setSowImg] = useState(false);
+  const [images, setImages] = useState("");
 
   const projects = [
     {
@@ -50,6 +52,16 @@ function Projects() {
     },
   ];
 
+  // Methods
+
+  const openImage = (e) => {
+    console.log(e.img);
+    setSowImg(true);
+    setImages(e.img);
+  };
+
+  
+
   const renderProjectTimeline = () => {
     return projects.map((project, index) => (
       <div
@@ -76,9 +88,9 @@ function Projects() {
               index % 2 === 1 ? "flex-row-reverse" : "items-center"
             } mt-5`}
           >
-            <div className="m-auto :">
+            <button onClick={() => openImage(project)} className="m-auto :">
               <CiImageOn size={30} />
-            </div>
+            </button>
             <div>
               <a href={project.URL}>
                 <IoCodeSlash size={30} />
@@ -140,6 +152,26 @@ function Projects() {
             </div>
           </div>
         </div>
+        {showImg && (
+          <div
+            id="modal"
+            class="overscroll-none fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center"
+          >
+            <a
+              class="fixed z-90 top-6 right-8 text-white text-5xl font-bold"
+              href="javascript:void(0)"
+              onClick={() => setSowImg(false)}
+            >
+              &times;
+            </a>
+
+            <img
+              src={images}
+              id="modal-img"
+              class="max-w-[800px] max-h-[600px] "
+            />
+          </div>
+        )}
       </div>
     </section>
   );
