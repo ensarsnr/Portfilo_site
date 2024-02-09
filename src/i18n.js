@@ -39,6 +39,12 @@ const resources = {
         nov: "Kasım",
         dec: "Aralık",
       },
+      countries: {
+        IT: "İtalya",
+        BA: "Bosna Hersek",
+        RS: "Sırbistan",
+        ME: "Karadağ"
+      }
     },
   },
   en: {
@@ -81,6 +87,12 @@ const resources = {
         nov: "Nov",
         dec: "Dec",
       },
+      countries: {
+        IT: "Italy",
+        BA: "Bosnia and Herzegovina",
+        RS: "Serbia",
+        ME: "Montenegro"
+      }
     },
   },
 };
