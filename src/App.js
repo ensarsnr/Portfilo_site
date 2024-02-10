@@ -9,7 +9,7 @@ function App() {
     <>
       <Home />
       <Projects />
-      <TechStack />
+      {/* <TechStack /> */}
       {/* <GallerySelect /> */}
     </>
   );
