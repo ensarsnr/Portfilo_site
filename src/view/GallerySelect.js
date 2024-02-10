@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-
+import italyImg from "../assets/images/italy/img13.jpg"
 function GallerySelect() {
 
   const { t, i18n } = useTranslation();
@@ -12,7 +12,7 @@ function GallerySelect() {
         className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
       >
         <img
-          src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+          src={italyImg}
           loading="lazy"
           alt="Photo by Minh Pham"
           className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
