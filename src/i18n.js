@@ -5,10 +5,11 @@ const resources = {
   tr: {
     translation: {
       welcome: "Hoş geldiniz!",
-      about: `Junior developer olarak kendimi geliştirmeye devam ediyorum.
-              JavaScript teknolojileri ve Flutter ile mobil programlama konusunda uzmanlaşıyorum.
-              Bilgisayarın dışında keşfetmeyi seviyorum ve amatör fotoğrafçılığa ilgi duyuyorum. 
-              Bu web sitesi üzerinden fotoğraflarıma ve üzerinde çalıştığım projelere göz atabilirsiniz.`,
+      about: `
+      Ben Javascript ile uygulama geliştiricisiyim.
+      Web ile mobil (Flutter, ReactNative)  FullStack uygulamalar geliştirmekteyim.
+      Çıkan sorunları çözmekten ve hatalarla uğraşmaktan keyif alıyorum.
+      Yazılım alanı dışında yeni yerler keşfetmeyi ve gezmeyi seviyorum.`,
       workingProcess: "Çalışma Süreci",
       workingTitle: "Çalışmalarımın Detayları",
       workingInfo:
@@ -43,17 +44,18 @@ const resources = {
         IT: "İtalya",
         BA: "Bosna Hersek",
         RS: "Sırbistan",
-        ME: "Karadağ"
-      }
+        ME: "Karadağ",
+      },
     },
   },
   en: {
     translation: {
       welcome: "Welcome!",
-      about: `I am actively developing myself as a junior developer. 
-              I want to specialize in mobile programming with JavaScript technologies and Flutter.
-              Apart from computers, I enjoy exploring and have a passion for amateur photography. 
-              You can explore my photos and the projects I've worked on through this website.`,
+      about: `
+      I am an application developer specializing in JavaScript.
+      I develop FullStack applications for both web and mobile platforms (Flutter, ReactNative). 
+      I take pleasure in solving problems and dealing with errors that arise during development.
+      Outside of the realm of software, I enjoy exploring and traveling to new places.`,
       workingProcess: "Working Process",
       workingTitle: "Details Of My Work",
       workingInfo:
@@ -91,8 +93,8 @@ const resources = {
         IT: "Italy",
         BA: "Bosnia and Herzegovina",
         RS: "Serbia",
-        ME: "Montenegro"
-      }
+        ME: "Montenegro",
+      },
     },
   },
 };
