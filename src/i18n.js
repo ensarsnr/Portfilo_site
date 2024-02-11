@@ -6,10 +6,10 @@ const resources = {
     translation: {
       welcome: "Hoş geldiniz!",
       about: `
-      Ben Javascript ile uygulama geliştiricisiyim.
-      Web ile mobil (Flutter, ReactNative)  FullStack uygulamalar geliştirmekteyim.
-      Çıkan sorunları çözmekten ve hatalarla uğraşmaktan keyif alıyorum.
-      Yazılım alanı dışında yeni yerler keşfetmeyi ve gezmeyi seviyorum.`,
+      Javascript ve teknolojileri konusunda kendisini sürekli geliştiren bir yazılımcıyım.
+      Hem Web hem de Mobil(FLutter, React-Native) platformlar için FullStack uygulamalar geliştiriyorum.
+      Sorunları çözmekten ve geliştirme sırasında ortaya çıkan hatalarla uğraşmaktan zevk alıyorum.
+      Yazılım alanının dışında, yeni yerler keşfetmekten ve seyahat etmekten hoşlanıyorum.`,
       workingProcess: "Çalışma Süreci",
       workingTitle: "Çalışmalarımın Detayları",
       workingInfo:
@@ -52,7 +52,7 @@ const resources = {
     translation: {
       welcome: "Welcome!",
       about: `
-      I am an application developer specializing in JavaScript.
+      I am a developer who continuously improves themselves in JavaScript and related technologies.
       I develop FullStack applications for both web and mobile platforms (Flutter, ReactNative). 
       I take pleasure in solving problems and dealing with errors that arise during development.
       Outside of the realm of software, I enjoy exploring and traveling to new places.`,
