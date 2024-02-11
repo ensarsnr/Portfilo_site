@@ -34,10 +34,20 @@ function Home() {
             </p>
           </div>
           <div className="flex justify-evenly mt-5">
-            <button>
+            <button
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href='https://github.com/ensarsnr';
+              }}
+            >
               <FaGithub color="white" size={60} />
             </button>
-            <button>
+            <button
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href="https://www.linkedin.com/in/ensar-%C5%9Fener-b416412a3/"
+            }}
+            >
               <FaLinkedin size={60} color="white" />
             </button>
             <button onClick={clickChangeLang}>
