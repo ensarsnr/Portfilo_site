@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfilo_site/static/css/main.73948f88.css",
+    "main.js": "/Portfilo_site/static/js/main.8196655d.js",
+    "static/js/787.829f6770.chunk.js": "/Portfilo_site/static/js/787.829f6770.chunk.js",
+    "static/media/img13.jpg": "/Portfilo_site/static/media/img13.8814314b0877a4c70d9d.jpg",
+    "static/media/game.png": "/Portfilo_site/static/media/game.91978a54d1183e331962.png",
+    "static/media/catDeveloper.png": "/Portfilo_site/static/media/catDeveloper.6914698cb9b1499d16a2.png",
+    "static/media/CV.pdf": "/Portfilo_site/static/media/CV.c62b0d37b84091c6c4b0.pdf",
+    "static/media/chatapp.png": "/Portfilo_site/static/media/chatapp.0220b759499757188ee1.png",
+    "static/media/dockerwebsite.png": "/Portfilo_site/static/media/dockerwebsite.5e8176fe243319df2f92.png",
+    "static/media/logo.png": "/Portfilo_site/static/media/logo.378531435937b8be833c.png",
+    "index.html": "/Portfilo_site/index.html",
+    "main.73948f88.css.map": "/Portfilo_site/static/css/main.73948f88.css.map",
+    "main.8196655d.js.map": "/Portfilo_site/static/js/main.8196655d.js.map",
+    "787.829f6770.chunk.js.map": "/Portfilo_site/static/js/787.829f6770.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73948f88.css",
+    "static/js/main.8196655d.js"
+  ]
+}
