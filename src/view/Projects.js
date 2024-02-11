@@ -30,7 +30,7 @@ function Projects() {
       title: "Flutter Game",
       desc: t("projects.flutterGame"),
       URL: "https://github.com/ensarsnr/Flutter-Game",
-      img: require("../assets/img/game.jpeg"),
+      img: require("../assets/img/game.png"),
       tech: ["Flutter", "Dart", "Provider"],
       date: `${t("months.dec")} 17 - ${t("months.dec")} 30 - 2023`,
     },
@@ -39,18 +39,18 @@ function Projects() {
       title: "Beatiful React Hooks",
       desc: t("projects.brh"),
       URL: "https://github.com/antonioru/beautiful-react-hooks",
-      img: require("../assets/img/chatapp.png"),
+      img: require("../assets/img/logo.png"),
       tech: ["README.md"],
       date: `${t("months.oct")} 23 - 2023`,
     },
-    {
-      title: "Project Management",
-      desc: t("projects.pmanagement"),
-      URL: "https://github.com/ensarsnr/project-management",
-      img: require("../assets/img/chatapp.png"),
-      tech: ["VueJS", "NodeJS", "MongoDB", "Tailwind"],
-      date: `${t("months.nov")} 25 - Not Finished - 2023`,
-    },
+    // {
+    //   title: "Project Management",
+    //   desc: t("projects.pmanagement"),
+    //   URL: "https://github.com/ensarsnr/project-management",
+    //   img: require("../assets/img/chatapp.png"),
+    //   tech: ["VueJS", "NodeJS", "MongoDB", "Tailwind"],
+    //   date: `${t("months.nov")} 25 - Not Finished - 2023`,
+    // },
   ];
 
   // Methods
@@ -168,7 +168,7 @@ function Projects() {
             <img
               src={images}
               id="modal-img"
-              class="p-5 bg-gray-400 rounded-lg h-3/4 max-w-full"
+              class="h-auto sm:max-w-5xl max-w-sm rounded-lg"
             />
           </div>
         )}
