@@ -1,6 +1,6 @@
 {
-  "name": "portfilo_site",
   "homepage": "https://ensarsnr.github.io/Portfilo_site/",
+  "name": "portfilo_site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
